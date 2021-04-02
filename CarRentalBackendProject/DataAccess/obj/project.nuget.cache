@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "2IZN0b9RyFxy88DY9QLs23Q4ErtCaFBNs+yi22pg6fHLHVf7YVjJw4Veg1E22/Vg2WgKlXDEYiKi/KlR4ipepQ==",
+  "success": true,
+  "projectFilePath": "D:\\Git Repositories\\CarRentalBackEndProject\\CarRentalBackendProject\\DataAccess\\DataAccess.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Bilal\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Bilal\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
