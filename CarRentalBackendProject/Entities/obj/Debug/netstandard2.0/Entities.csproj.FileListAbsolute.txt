@@ -1,0 +1,9 @@
+D:\Git Repositories\CarRentalBackEndProject\CarRentalBackendProject\Entities\bin\Debug\netstandard2.0\Entities.deps.json
+D:\Git Repositories\CarRentalBackEndProject\CarRentalBackendProject\Entities\bin\Debug\netstandard2.0\Entities.dll
+D:\Git Repositories\CarRentalBackEndProject\CarRentalBackendProject\Entities\bin\Debug\netstandard2.0\Entities.pdb
+D:\Git Repositories\CarRentalBackEndProject\CarRentalBackendProject\Entities\obj\Debug\netstandard2.0\Entities.csprojAssemblyReference.cache
+D:\Git Repositories\CarRentalBackEndProject\CarRentalBackendProject\Entities\obj\Debug\netstandard2.0\Entities.AssemblyInfoInputs.cache
+D:\Git Repositories\CarRentalBackEndProject\CarRentalBackendProject\Entities\obj\Debug\netstandard2.0\Entities.AssemblyInfo.cs
+D:\Git Repositories\CarRentalBackEndProject\CarRentalBackendProject\Entities\obj\Debug\netstandard2.0\Entities.csproj.CoreCompileInputs.cache
+D:\Git Repositories\CarRentalBackEndProject\CarRentalBackendProject\Entities\obj\Debug\netstandard2.0\Entities.dll
+D:\Git Repositories\CarRentalBackEndProject\CarRentalBackendProject\Entities\obj\Debug\netstandard2.0\Entities.pdb
