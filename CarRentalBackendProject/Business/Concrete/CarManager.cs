@@ -14,38 +14,40 @@ namespace Business.Concrete
         {
             _carDal = carDal;
         }
+
         public void Add(Car car)
         {
-            if(car != null && car.Name.Length > 2 && car.DailyPrice > 0) 
-            {
-                _carDal.Add(car);
-            }
-            
+            throw new NotImplementedException();
         }
 
         public void Delete(Car car)
         {
-            _carDal.Delete(car);
+            throw new NotImplementedException();
         }
 
         public List<Car> GetAll()
         {
-            return _carDal.GetAll();
-        }
-
-        public List<Car> GetAllByCategory(int categoryId)
-        {
-            return _carDal.GetAllByCategory(categoryId);
+            throw new NotImplementedException();
         }
 
         public Car GetById(int id)
         {
-            return _carDal.GetById(id);
+            throw new NotImplementedException();
+        }
+
+        public List<Car> GetCarsByBrandId()
+        {
+            throw new NotImplementedException();
+        }
+
+        public List<Car> GetCarsByColorId()
+        {
+            throw new NotImplementedException();
         }
 
         public void Update(Car car)
         {
-            _carDal.Update(car);
+            throw new NotImplementedException();
         }
     }
 }
