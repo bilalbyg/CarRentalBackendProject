@@ -7,3 +7,6 @@ D:\Git Repositories\CarRentalBackEndProject\CarRentalBackendProject\Entities\obj
 D:\Git Repositories\CarRentalBackEndProject\CarRentalBackendProject\Entities\obj\Debug\netstandard2.0\Entities.csproj.CoreCompileInputs.cache
 D:\Git Repositories\CarRentalBackEndProject\CarRentalBackendProject\Entities\obj\Debug\netstandard2.0\Entities.dll
 D:\Git Repositories\CarRentalBackEndProject\CarRentalBackendProject\Entities\obj\Debug\netstandard2.0\Entities.pdb
+D:\Git Repositories\CarRentalBackEndProject\CarRentalBackendProject\Entities\bin\Debug\netstandard2.0\Core.dll
+D:\Git Repositories\CarRentalBackEndProject\CarRentalBackendProject\Entities\bin\Debug\netstandard2.0\Core.pdb
+D:\Git Repositories\CarRentalBackEndProject\CarRentalBackendProject\Entities\obj\Debug\netstandard2.0\Entities.csproj.CopyComplete
