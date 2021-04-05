@@ -3,6 +3,7 @@ using DataAccess.Abstract;
 using Entities.Concrete;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
 namespace Business.Concrete
@@ -15,16 +16,7 @@ namespace Business.Concrete
             _carDal = carDal;
         }
 
-        public void Add(Car car)
-        {
-            throw new NotImplementedException();
-        }
-
-        public void Delete(Car car)
-        {
-            throw new NotImplementedException();
-        }
-
+        
         public List<Car> GetAll()
         {
             throw new NotImplementedException();
@@ -35,19 +27,19 @@ namespace Business.Concrete
             throw new NotImplementedException();
         }
 
-        public List<Car> GetCarsByBrandId()
+        public List<Car> GetCarsByBrandId(int brandId)
         {
-            throw new NotImplementedException();
+            return _carDal.GetAll(c => c.BrandId == brandId).ToList();
         }
 
-        public List<Car> GetCarsByColorId()
+        public List<Car> GetCarsByColorId(int colorId)
         {
-            throw new NotImplementedException();
+            return _carDal.GetAll(c => c.ColorId == colorId).ToList();
         }
-
-        public void Update(Car car)
+    
+        public List<Car> GetCarsByDailyPrice(decimal min, decimal max) 
         {
-            throw new NotImplementedException();
+            return _carDal.GetAll(c => c.DailyPrice >= min && c.DailyPrice <= max).ToList();
         }
     }
 }
