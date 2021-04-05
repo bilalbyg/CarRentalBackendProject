@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3SIL+wfOnynLUiq/kkJ0kFsUkkCqDeZo2APUBEUEqcJX7FYx0czFAzwJgYyOp899Z/npaJfSABKq2+8RlPPPoA==",
+  "dgSpecHash": "1OFzvtxjAjGfZPVy41sg/trqM2emDbYR39owpzups8rjeyM4v46dm6PS+uO1qdUif64cQsparoYfHe2yeGpGOw==",
   "success": true,
-  "projectFilePath": "D:\\Git Repositories\\CarRentalBackEndProject\\CarRentalBackendProject\\Entities\\Entities.csproj",
+  "projectFilePath": "D:\\Git Repositories\\CarRentalBackEndProject\\CarRentalBackendProject\\Core\\Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Bilal\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Bilal\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"

@@ -25,16 +25,6 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
-      },
-      "Core/1.0.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
-        "compile": {
-          "bin/placeholder/Core.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Core.dll": {}
-        }
       }
     }
   },
@@ -182,16 +172,10 @@
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
-    },
-    "Core/1.0.0": {
-      "type": "project",
-      "path": "../Core/Core.csproj",
-      "msbuildProject": "../Core/Core.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
-      "Core >= 1.0.0",
       "NETStandard.Library >= 2.0.3"
     ]
   },
@@ -201,11 +185,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Git Repositories\\CarRentalBackEndProject\\CarRentalBackendProject\\Entities\\Entities.csproj",
-      "projectName": "Entities",
-      "projectPath": "D:\\Git Repositories\\CarRentalBackEndProject\\CarRentalBackendProject\\Entities\\Entities.csproj",
+      "projectUniqueName": "D:\\Git Repositories\\CarRentalBackEndProject\\CarRentalBackendProject\\Core\\Core.csproj",
+      "projectName": "Core",
+      "projectPath": "D:\\Git Repositories\\CarRentalBackEndProject\\CarRentalBackendProject\\Core\\Core.csproj",
       "packagesPath": "C:\\Users\\Bilal\\.nuget\\packages\\",
-      "outputPath": "D:\\Git Repositories\\CarRentalBackEndProject\\CarRentalBackendProject\\Entities\\obj\\",
+      "outputPath": "D:\\Git Repositories\\CarRentalBackEndProject\\CarRentalBackendProject\\Core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Bilal\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -222,11 +206,7 @@
       "frameworks": {
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
-          "projectReferences": {
-            "D:\\Git Repositories\\CarRentalBackEndProject\\CarRentalBackendProject\\Core\\Core.csproj": {
-              "projectPath": "D:\\Git Repositories\\CarRentalBackEndProject\\CarRentalBackendProject\\Core\\Core.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
