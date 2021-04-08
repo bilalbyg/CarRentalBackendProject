@@ -12,3 +12,5 @@ D:\Git Repositories\CarRentalBackEndProject\CarRentalBackendProject\Business\obj
 D:\Git Repositories\CarRentalBackEndProject\CarRentalBackendProject\Business\obj\Debug\netstandard2.0\Business.csproj.CopyComplete
 D:\Git Repositories\CarRentalBackEndProject\CarRentalBackendProject\Business\obj\Debug\netstandard2.0\Business.dll
 D:\Git Repositories\CarRentalBackEndProject\CarRentalBackendProject\Business\obj\Debug\netstandard2.0\Business.pdb
+D:\Git Repositories\CarRentalBackEndProject\CarRentalBackendProject\Business\bin\Debug\netstandard2.0\Core.dll
+D:\Git Repositories\CarRentalBackEndProject\CarRentalBackendProject\Business\bin\Debug\netstandard2.0\Core.pdb

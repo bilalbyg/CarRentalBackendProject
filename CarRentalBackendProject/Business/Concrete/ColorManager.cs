@@ -7,43 +7,19 @@ namespace Business.Concrete
 {
     public class ColorManager : IColorService
     {
-        ICarDal _carDal;
-        public CarManager(ICarDal carDal)
+        IColorDal _colorDal;
+        public ColorManager(IColorDal colorDal) 
         {
-            _carDal = carDal;
+            _colorDal = colorDal;
         }
-        public void Add(Car car)
+        public List<Color> GetAll()
         {
-            if (car != null && car.DailyPrice > 0)
-            {
-                _carDal.Add(car);
-            }
-
+            return _colorDal.GetAll();
         }
 
-        public void Delete(Car car)
+        public Color GetById(int colorId)
         {
-            _carDal.Delete(car);
-        }
-
-        public List<Car> GetAll()
-        {
-            return _carDal.GetAll();
-        }
-
-        public List<Car> GetAllByCategory(int categoryId)
-        {
-            return _carDal.GetAllByCategory(categoryId);
-        }
-
-        public Car GetById(int id)
-        {
-            return _carDal.GetById(id);
-        }
-
-        public void Update(Car car)
-        {
-            _carDal.Update(car);
+            return _colorDal.Get(c=>c.Id == colorId);
         }
     }
 }

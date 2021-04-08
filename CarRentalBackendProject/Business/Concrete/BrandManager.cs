@@ -7,43 +7,19 @@ namespace Business.Concrete
 {
     public class BrandManager : IBrandService
     {
-        ICarDal _carDal;
-        public CarManager(ICarDal carDal)
+        IBrandDal _brandDal;
+        public BrandManager(IBrandDal brandDal)
         {
-            _carDal = carDal;
+            _brandDal = brandDal;
         }
-        public void Add(Car car)
+        public List<Brand> GetAll()
         {
-            if (car != null && car.DailyPrice > 0)
-            {
-                _carDal.Add(car);
-            }
-
+            throw new System.NotImplementedException();
         }
 
-        public void Delete(Car car)
+        public Brand GetById(int brandId)
         {
-            _carDal.Delete(car);
-        }
-
-        public List<Car> GetAll()
-        {
-            return _carDal.GetAll();
-        }
-
-        public List<Car> GetAllByCategory(int categoryId)
-        {
-            return _carDal.GetAllByCategory(categoryId);
-        }
-
-        public Car GetById(int id)
-        {
-            return _carDal.GetById(id);
-        }
-
-        public void Update(Car car)
-        {
-            _carDal.Update(car);
+            throw new System.NotImplementedException();
         }
     }
 }
