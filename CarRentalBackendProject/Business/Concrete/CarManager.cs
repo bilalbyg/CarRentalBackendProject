@@ -1,4 +1,5 @@
 ﻿using Business.Abstract;
+using Core.Utilities.Results;
 using DataAccess.Abstract;
 using Entities.Concrete;
 using Entities.DTOs;
@@ -17,13 +18,24 @@ namespace Business.Concrete
             _carDal = carDal;
         }
 
-        
-        public List<Car> GetAll()
+        public IResult Add(Car car)
         {
-            return _carDal.GetAll().ToList();
+            _carDal.Add(car);
+            return new Result(true,"Car added");
         }
 
-        public Car GetById(int id)
+        public IResult Delete(Car car)
+        {
+            _carDal.Delete(car);
+            return new Result(true, "Car deleted");
+        }
+
+        public IDataResult<List<Car>> GetAll()
+        {
+            return new DataResult<List<Car>>(_carDal.GetAll(),true,"All cars listed");
+        }
+
+        public IDataResult<Car> GetById(int id)
         {
             return _carDal.Get(c => c.Id == id);
         }
@@ -46,6 +58,11 @@ namespace Business.Concrete
         public List<Car> GetCarsByDailyPrice(decimal min, decimal max) 
         {
             return _carDal.GetAll(c => c.DailyPrice >= min && c.DailyPrice <= max).ToList();
+        }
+
+        public void Update(Car car)
+        {
+            _carDal.Update(car);
         }
     }
 }
