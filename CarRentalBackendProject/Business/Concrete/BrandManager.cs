@@ -14,24 +14,26 @@ namespace Business.Concrete
             _brandDal = brandDal;
         }
 
-        public void Add(Brand brand)
+        public IResult Add(Brand brand)
         {
             _brandDal.Add(brand);
+            return new SuccessResult("Brand added");
         }
 
-        public void Delete(Brand brand)
+        public IResult Delete(Brand brand)
         {
             _brandDal.Delete(brand);
+            return new SuccessResult("Brand deleted");
         }
 
-        public List<Brand> GetAll()
+        public IDataResult<List<Brand>> GetAll()
         {
-            throw new System.NotImplementedException();
+            return new SuccessDataResult<List<Brand>>(_brandDal.GetAll());
         }
 
         public IDataResult<Brand> GetById(int brandId)
         {
-            throw new System.NotImplementedException();
+            return new SuccessDataResult<Brand>(_brandDal.Get(b=>b.Id == brandId));
         }
 
         public IResult Update(Brand brand)
